@@ -1,6 +1,6 @@
 body {
-  background:antiquewhite;
-  background-color: antiquewhite;
+  background:rgb(236, 229, 220);
+  background-color: rgb(236, 229, 220);
 }
 
 h1 {
@@ -16,8 +16,15 @@ p {
 }
 
 a {
-   color: white;
+   color: rgb(236, 229, 220);
+   background-color:  rgb(17, 17, 117);
+   
 }
+
+h1{
+   text-align: center;
+}
+
 
 nav{
   background-color: rgb(17, 17, 117);
@@ -27,4 +34,8 @@ nav{
     align-items: center;
     flex-wrap: nowrap;
     position: sticky;
+}
+
+.gloss{
+   color: rgb(17, 17, 117);
 }
